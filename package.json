@@ -1,0 +1,31 @@
+{
+  "name": "lb-utils-js",
+  "version": "0.0.1",
+  "main": "./dist/fi-utils.umd.min.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:npm": "vue-cli-service build --target lib --name lb-utils lib/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "qs": "^6.6.0",
+    "sa-sdk-javascript": "^1.12.5",
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.5",
+    "@vue/cli-service": "^3.0.5",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
