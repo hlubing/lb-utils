@@ -15,8 +15,8 @@ src
 public
 lib
 dist/demo.html
-dist/fi-utils.common.js
-dist/fi-utils.common.js.map
-dist/fi-utils.umd.js
-dist/fi-utils.umd.js.map
-dist/fi-utils.umd.min.js.map
+dist/lb-utils.common.js
+dist/lb-utils.common.js.map
+dist/lb-utils.umd.js
+dist/lb-utils.umd.js.map
+dist/lb-utils.umd.min.js.map
