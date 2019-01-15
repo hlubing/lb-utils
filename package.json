@@ -1,6 +1,6 @@
 {
   "name": "lb-utils-js",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "main": "./dist/fi-utils.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
