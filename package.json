@@ -1,6 +1,7 @@
 {
-  "name": "lb-utils-js",
-  "version": "0.0.1",
+  "name": "lb-utils-tools",
+  "keywords": "tools",
+  "version": "0.0.2",
   "main": "./dist/lb-utils.umd.min.js",
   "private": false,
   "scripts": {
@@ -10,9 +11,11 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "file-saver": "^2.0.0",
     "qs": "^6.6.0",
     "sa-sdk-javascript": "^1.12.5",
-    "vue": "^2.5.17"
+    "vue": "^2.5.17",
+    "xlsx": "^0.14.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.5",

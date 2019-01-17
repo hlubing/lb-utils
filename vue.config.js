@@ -9,7 +9,10 @@ module.exports = {
         libraryTarget: 'umd',
         umdNamedDefine: true
       },
-      mode: 'production'
+      mode: 'production',
+      performance: {
+        hints:false
+      }
     }
   }
 }
